@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.FragmentOne">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/tvtitle"
+            android:textSize="20dp"
+            android:scrollbars = "vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="FragemntOne" />
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/tvtitle2"
+            android:textSize="20dp"
+            android:layout_marginStart="6dp"
+            android:scrollbars = "vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="FragemntOne" />
+
+    </LinearLayout>
+</layout>
